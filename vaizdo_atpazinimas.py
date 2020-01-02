@@ -30,10 +30,10 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 #args['image']="image/test.png"
 #args['image']="image/test1.png"
 #args['image']="image/Screenshot_2.jpg"
-args['image']="image/IMG_20200102_142109.jpg"
+#args['image']="image/IMG_20200102_142109.jpg"
 #args['image']="image/IMG_20200102_142537.jpg"
 #args['image']="image/IMG_20200102_142552.jpg"
-#args['image']="image/IMG_20200102_143620.jpg"
+args['image']="image/IMG_20200102_143620.jpg"
 
 
 image = cv2.imread(args['image'])
